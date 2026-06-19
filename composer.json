@@ -5,5 +5,10 @@
             "Tc\\PhpMvcCore\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "thecodeholic\\phpmvc": "."
+        }
+    }
 }
